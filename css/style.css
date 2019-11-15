@@ -1,7 +1,87 @@
   
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-div.jumbotron {
-    border: 2px, solid, black;
+/* ----------------- Colours */
+body {
+    background-color: #4c4f52;
+    font-family: "Roboto" sans-serif;
+    overflow-x: hidden;
+    color: rgb(211, 209, 209);
+}
+
+.fa.fa-file-code {
+    color: rgb(211, 209, 209);
+}
+
+/* ------ Special margin, padding, and other */
+
+h1 {
+    text-align: center; 
+    padding-top: 25px;
+}
+
+.content-center {
+    text-align: center;
+}
+
+.background-img { 
+  background: url("https://i.imgur.com/isE3shA.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 800px; 
+}
+
+.jumbotron { 
+    color: #000;
+    opacity: 0.85;
+    border: 2px solid #000;
+    max-width: 750px;
+    max-height: 500px; 
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+a.btn.btn-primary.btn-lg {
+    color: #000;
+    background-color: rgb(12, 211, 12);
+    border-color: rgb(12, 211, 12);
+    opacity: 1.0;
+}
+
+#grad1 {
+  height: 100px;
+  background-color: #cccccc;
+  background-image: linear-gradient(#000, #4c4f52);
+}
+
+.img-website {
     max-width: 300px;
+    max-height: 100px;
+    border: 1px solid rgb(211, 209, 209);
+    padding: 3px;
+}
+
+
+/* ---------- Footer */
+
+.panel-heading {
+    text-align: center;
+    height: 100px;
+    background-color: #cccccc;
+    background-image: linear-gradient(#000, #4c4f52);
+    padding-top: 25px;
+}
+
+div.row {
+    text-align: center; 
+}
+
+i.fa.fa-copyright {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center; 
 }
