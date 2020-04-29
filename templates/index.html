@@ -1,0 +1,177 @@
+{% extends 'base.html' %} {% block content %}
+<!-- Jumbotron-->
+<div class="background-img">
+	<div class="col-xs-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2">
+		<div class="jumbotron">
+			<h3 class="display-4 content-center">Velkommen til 7 Fjell IT.</h3>
+			<p class="lead"></p>
+			<hr class="my-4">
+			<p>Med rett teknologi er bedriften et steg nærmere suksess! Kontakt oss i dag for en uforpliktende prat
+				om
+				hvordan 7 Fjell IT kan hjelpe din bedrift.</p>
+			<a class="btn btn-primary btn-lg" href="#" role="button">Les mer</a>
+		</div>
+	</div>
+</div>
+<div id="grad1">
+	<h1 class="text-styling-two">Hvilke tjenester tilbyr 7 Fjell IT?</h1>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<div class="row">
+				<div id="big-box-style" class="col-sm-12 col-lg-6">
+					<i class="fa fa-window-maximize text-styling"></i>
+					<h3 class="text-styling">7 FiT-Web</h3>
+					<p class="text-styling">Skaff bedriften en mobilvennlig nettløsning som sørger for at kundene dine
+						har tilgang til bedriften ved enkle tastetrykk.</p>
+					    <br>
+					<div>
+						<img src="{{url_for('static', filename='images/web.jpeg')}}" alt="Devices" class="img-website">
+                    </div>
+					    <br>
+					<p class="text-styling">Med en mobiloptimalisert webside kan kunder enkelt navigere seg frem til
+						informasjonen de søker. Uavhengig av enheten
+						de bruker, vil nettsiden alltid vises perfekt og vil gi bedriften ett profesjonelt ansikt
+						utad på Internett.</p>
+						<br>
+					<p class="text-styling">Vi har løsninger til de aller fleste bedrifter i SMB markedet og kan
+						tilby kostnadseffektive løsninger
+						innenfor de fleste budsjetter.</p>
+					<a class="btn btn-primary btn-lg" href="web.html" role="button">Les mer</a>
+						<br>
+						<br>
+                </div>
+				<div id="big-box-style" class="col-sm-12 col-lg-6">
+					<i class="fa fa-credit-card text-styling"></i>
+					<h3 class="text-styling">Nettbutikk</h3>
+					<p class="text-styling">Med 7Fitshop får du ett fritt antall produkter, kategorier og kan
+						følge lagerbeholdingen direkte. Alt styrer du fra din egen pålogging.</p>
+						<br>
+					<div>
+						<img src="{{url_for('static', filename='images/nettbutikk.jpeg')}}" alt="Devices" class="img-website">
+                    </div>
+						<br>
+					<p class="text-styling">Nettbutikken er selvfølgelig optimalisert for mobil og vil ha et
+						stilrent og flott design uavhengig av hvilken enhet kunden skulle ønske å
+						handle fra. 7Fitshop er ferdig integrert med VISA, MasterCard og Vipps. For digitale
+						valutaer vennligst ta kontakt for mer informasjon.</p>
+						<br>
+					<p class="text-styling">Vi har løsninger til de aller fleste bedrifter i SMB markedet og
+						kan tilby kostnadseffektive løsninger
+						innenfor de fleste budsjetter.</p>
+					<a class="btn btn-primary btn-lg" href="#" role="button">Les mer</a>
+				</div>
+			</div>
+				<br>
+				<br>
+            <div class="row">
+				<div id="big-box-style" class="col-sm-12 col-lg-6">
+					<i class="fa fa-code text-styling"></i><h3 class="text-styling header-size">Programmeringstjenester</h3>
+                    <p class="text-styling">Trenger du dyktige programmerere for å realisere produktet eller ideen som du har?</p>
+                        <br>
+                    <div>
+                        <img src="{{url_for('static', filename='images/code.jpeg')}}" alt="Devices" class="img-website">
+                    </div>
+                        <br>
+                    <p class="text-styling">Vi har tilgang til dyktige programmere innenfor en rekke språk og kan tilby juniorer
+                        og seniorer programmerere til svært konkurransedyktige priser.</p>
+                        <br>  
+                    <p class="text-styling">Vi har løsninger til de aller fleste bedrifter i SMB markedet og kan tilby kostnadseffektive løsninger
+                        innenfor de fleste budsjetter.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Les mer</a>
+                </div>
+					<br>
+					<br>
+				<div id="big-box-style" class="col-sm-12 col-lg-6">
+                    <i class="fa fa-calculator text-styling"></i><h3 class="text-styling">App utvikling</h3>
+                    <p class="text-styling">Er det du som sitter med den neste store App idèen? Kontakt oss for en uforpliktende prat om 
+                        hvordan vi kan hjelpe deg å realisere appen din.</p>
+                        <br>
+                    <div>
+                        <img src="{{url_for('static', filename='images/web.jpeg')}}" alt="Devices" class="img-website">
+                    </div>
+                        <br>
+                    <p class="text-styling">7FiT.no hjelper deg gjerne med å finne de rette løsningene som sørger for at produktutviklingen vil gå raskt og smertefritt i henhold til budsjett og tidsplan.</p>
+                        <br>
+                        <br>  
+                    <p class="text-styling">Vi benytter oss kun av de siste teknologier for utvikling, dette for å kunne levere produkter av høyeste kvalitet.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Les mer</a>
+						<br>
+						<br>
+                </div>
+            </div>
+			<div class="row">
+				<div id="big-box-style-one" class="col-sm-12 col-lg-6">
+                    <i class="fa fa-mobile text-styling"></i><h3 class="text-styling">IT-Drift</h3>
+                    <p class="text-styling">på denne måten kan bedriften fokusere på kjernevirksomheten mens andre tar seg av IT-Driften. 7FiT.no tilbyr
+                        IT tjenester og vi tar gjerne en prat om hvordan vi kan sikre din bedrift en kostnadseffektiv IT-drift.</p>
+                        <br>
+                    <div>
+                        <img src="{{url_for('static', filename='images/tech-icon.jpeg')}}" alt="Devices" class="img-website">
+                    </div>
+                        <br>
+                    <p class="text-styling">Kontakt oss for en uforpliktende prat om hvordan vi kan sikre deg en trygg og effektiv IT-drift.</p>
+                        <br>
+                        <br>  
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Les mer</a>
+						<br>
+						<br>
+                </div>
+				<div id="big-box-style-one" class="col-sm-12 col-lg-6">
+                    <i class="fa fa-cloud text-styling"></i><h3 class="text-styling">Skytjenester</h3>
+                    <p class="text-styling">7FiT.no tilbyr ikke skytjenester pr. i dag, men sjekk ut vår kommende MobilDok, som vil gjøre bedriften din papirløs.</p>
+                        <br>
+                    <div>
+                        <img src="{{url_for('static', filename='images/code.jpeg')}}" alt="Devices" class="img-website">
+                    </div>
+                        <br>
+                    <p class="text-styling">Planlagt lansering av MobilDok er satt til høsten 2020 og vi inviterer 30 bedrifter til å være med i vårt testpanel, når
+                        testperiode er fullført og man ruller ut fullversjonen av MobilDok, vil kundene som er med i testperioden bli belønnet med en kraftig redusert 
+                        pris på våre allerede lave priser og dette for inntil de neste 3 år.</p>
+                        <br>
+                        <br>  
+                    <p class="text-styling">Med MobilDok vil bedriften møte alle krav i henhold til oppbevaring av persondata, samtidig være en fremtidsrettet bedrift som er papirløs.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Les mer</a>
+						<br>
+						<br>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="kunde">
+	<h3>Hva sier våre kunder?</h3>
+</div>
+<div class="container">
+	<div class="row">
+        <div id="big-box-style-two" class="col-10 offset-1">
+            <div class="row">
+		        <div id="padding-content" class="col-xs-12 col-lg-8 text-styling">
+			        <h3>SpiritusYoga.no</h3>
+			        <p>Jeg er svært fornøyd med servicen og resultatet og kan på det varmeste
+			        	anbefale 7 Fjell IT.</p>
+			        <p>--Marie--</p>
+			        <p>--SpiritusYoga.no--</p>
+		        </div>
+		        <div id="padding-content" class="col-xs-12 col-lg-4">
+			        <img class="rounded-circle img-height" src="{{url_for('static', filename='images/spiritus.jpg')}}" alt="7Fit.no">
+                </div>
+            </div>
+        </div>
+        <div id="big-box-style-one" class="col-10 offset-1">
+            <div class="row">
+	            <div id="padding-content" class="col-xs-12 col-lg-4">
+			        <img class="rounded-circle" src="{{url_for('static', filename='images/maskinkurs.png')}}" alt="7Fit.no">
+                </div>    
+		        <div id="padding-content" class="col-xs-12 col-lg-8 text-styling">
+			        <h3>Maskinkurs.no</h3>
+			        <p>Svært fornøyd med resultatet og kan trygt anbefale 7FiT.no</p>
+			        <p>--Dane--</p>
+			        <p>--Maskinkurs.no--</p>
+		        </div>
+            </div>
+	    </div>
+    </div>
+</div>
+{% endblock %}

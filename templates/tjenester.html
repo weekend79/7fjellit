@@ -1,0 +1,94 @@
+{% extends 'base.html' %} {% block content %}
+<div id="grad1" class="background-img-one">
+	<h1 class="text-styling">Tjenester</h1>
+</div>
+<div class="container">
+	<a href="{{ url_for('web') }}">
+		<div id="box-styling" class="col-10 offset-1">
+			<div class="row">
+				<div class="col-xs-6 col-lg-8">
+					<h6>7 FiT-Web</h6>
+					<p>Skaff bedriften en mobilvennlig nettløsning som sørger for at kundene dine har
+						tilgang til bedriften ved enkle tastetrykk.</p>
+				</div>
+				<div class="col-xs-6 col-lg-4">
+					<img id="img-display" class="rounded" src="{{url_for('static', filename='images/web.jpeg')}}" alt="7FiT.no">
+
+                </div>
+				</div>
+			</div>
+	</a>
+	<a href="{{ url_for('webshop') }}">
+		<div id="box-styling" class="col-10 offset-1">
+			<div class="row">
+				<div class="col-xs-6 col-lg-8">
+					<h6>Nettbutikk</h6>
+					<p>Med 7Fitshop får du ett fritt antall produkter, kategorier og kan følge lagerbeholdingen direkte.
+						Alt styrer du fra din egen pålogging.<br>Skaff deg 7FitShop i dag!</p>
+				</div>
+				<div class="col-xs-6 col-lg-4">
+					<img id="img-display" class="rounded" src="{{url_for('static', filename='images/nettbutikk.jpeg')}}" alt="7FiT.no">
+                </div>
+				</div>
+			</div>
+	</a>
+	<a href="{{ url_for('kode') }}">
+		<div id="box-styling" class="col-10 offset-1">
+			<div class="row">
+				<div class="col-xs-6 col-lg-8">
+					<h6>Programmeringstjenester</h6>
+					<p>Trenger du dyktige programmerere for å realisere produktet eller ideen som du har?<br>
+                        Vi hjelper deg gjerne med å sette sammen teamet du trenger for å realisere prosjektet eller idéen du måtte ha.</p>
+				</div>
+				<div class="col-xs-6 col-lg-4">
+					<img id="img-display" class="rounded" src="{{url_for('static', filename='images/code.jpeg')}}" alt="7FiT.no">
+                </div>
+				</div>
+			</div>
+	</a>
+	<a href="{{ url_for('app_dev') }}">
+		<div id="box-styling" class="col-10 offset-1">
+			<div class="row">
+				<div class="col-xs-6 col-lg-8">
+					<h6>App utvikling</h6>
+					<p>Er det du som sitter med den neste store App idèen? Kontakt oss for en uforpliktende prat om
+						hvordan vi kan hjelpe
+						deg å realisere appen din.</p>
+				</div>
+				<div class="col-xs-6 col-lg-4">
+					<img id="img-display" class="rounded" src="{{url_for('static', filename='images/web.jpeg')}}" alt="7FiT.no">
+                </div>
+				</div>
+			</div>
+	</a>
+	<a href="{{ url_for('drift') }}">
+		<div id="box-styling" class="col-10 offset-1">
+			<div class="row">
+				<div class="col-xs-6 col-lg-8">
+					<h6>IT-Drift</h6>
+					<p>Kontakt oss for en uforpliktende prat om hvordan vi kan sikre deg en trygg og effektiv IT-drift.
+					</p>
+				</div>
+				<div class="col-xs-6 col-lg-4">
+					<img id="img-display" class="rounded" src="{{url_for('static', filename='images/tech-icon.jpeg')}}" alt="7FiT.no">
+                </div>
+				</div>
+			</div>
+	</a>
+	<a href="{{ url_for('sky') }}">
+		<div id="box-styling" class="col-10 offset-1">
+			<div class="row">
+				<div class="col-xs-6 col-lg-8">
+					<h6>Skytjenester</h6>
+					<p> Sjekk ut vår kommende MobilDok, som vil gjøre bedriften din papirløs. Planlagt lansering av
+						MobilDok er satt til høsten 2020.
+					</p>
+				</div>
+				<div class="col-xs-6 col-lg-4">
+					<img id="img-display" class="rounded" src="{{url_for('static', filename='images/code.jpeg')}}" alt="7FiT.no">
+                </div>
+				</div>
+			</div>
+	</a>
+</div>
+{% endblock %}
