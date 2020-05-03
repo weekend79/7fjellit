@@ -1,0 +1,58 @@
+{% extends 'base.html' %} {% block content %}
+
+<div id="grad1" class="background-img-three">
+	<h1 class="text-styling"></h1>
+</div>
+<div id="grad2">
+	<h1 class="text-styling-two">Kontakt Oss</h1>
+</div>
+
+<div class="container">
+    <div class="col-sm-8 offset-sm-2">
+        <address>
+            <h4 class="text-styling"><strong>7 Fjell IT</strong></h4>
+            <p class="text-styling">Kirsten Flagstads vei 72</p>
+            <p class="text-styling">5146 Bergen</p>
+            <p class="text-styling">Tlf: 988 00 984</p>
+                <br>
+            <p class="text-styling">post@7fit.no</p>
+            <br>
+        </address>
+    
+    </div>
+
+    <form action="" class="col-sm-8 offset-sm-2 form-border">
+        <div class="form-group">
+            <label for="formControlInput1" class="text-styling">Navn:</label>
+            <input class="form-control form-control" type="text" placeholder="Navn:">
+        </div>
+        <div class="form-group">
+            <label for="formControlInput1" class="col-sm-2 text-styling">E-Post</label>
+            <input type="email" class="form-control col-sm-12" id="formControlInput1" placeholder="navn@e-post.com">
+        </div>
+        <div class="form-group">
+            <label for="formControlInput1" class="text-styling">Emne:</label>
+            <input class="form-control form-control" type="text" placeholder="Emne:">
+        </div>
+        <div class="form-group">
+            <label for="FormControlTextarea1" class="text-styling">Melding</label>
+            <textarea class="form-control" id="FormControlTextarea1" placeholder="Melding:" rows="10"></textarea>
+        </div>
+            <br>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input text-styling" id="Check1">
+            <label class="form-check-label" for="Check1">Jeg gir med dette 7 Fjell IT rett til å kontakte meg angående henvendelsen over</label>
+        </div>
+            <br>
+            <br>
+        <div class="col-sm-3 offset-sm-5">   
+            <a class="btn btn-primary btn-lg text-styling" href="web.html" role="button">Les mer</a>
+        </div>     
+            <br>
+            <br>
+    </form>
+        <br>
+        <br>
+</div>
+
+{% endblock %}

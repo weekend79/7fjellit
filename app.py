@@ -16,10 +16,23 @@ App routes
 def index():
     return render_template('index.html')
 
+
 # Services / Tjenester
 @app.route('/tjenester')
 def tjenester():
     return render_template('tjenester.html')
+
+
+# About 7 Fjell IT / Om 7 Fjell IT
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+
+# Contact / Kontakt oss 
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
 
 
 # App development
@@ -55,7 +68,7 @@ def web():
 # Webshop / Nettbutikk
 @app.route('/webshop')
 def webshop():
-    return render_template('webshop')
+    return render_template('webshop.html')
 
 # App run
 if __name__ == '__main__':
