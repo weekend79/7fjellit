@@ -234,6 +234,14 @@ div#footer-box-styling {
     background-image: linear-gradient(#1d2124, #4c4f52); 
 }
 
+/*--------------About / Om oss ---*/
+div.extra-padding {
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+}
+
+
 /*------------ Tjenester ---------*/
 div#grad1.background-img-one {
   background: url("/static/images/code.jpeg") no-repeat center center fixed; 
@@ -241,7 +249,7 @@ div#grad1.background-img-one {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 150px; 
+  height: 350px; 
 }
 
 div#grad1.background-img-two {
@@ -250,7 +258,7 @@ div#grad1.background-img-two {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 150px; 
+  height: 350px; 
 }
 
 
@@ -347,8 +355,9 @@ div#grad1.background-img-three {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  height: 250px; 
+  background-size: cover;  
+  height: 600px;
+
 }
 
 form a#button-styling {
